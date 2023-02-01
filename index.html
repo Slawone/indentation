@@ -44,21 +44,21 @@
         </h2>
         <img src="img/1.jpg" alt="#" class="article__img article__img_float_left">
         <p class="article__copy">
-          ВАЖНО: margin всегда задают от предыдущего элемента к следующему.
+          <span class="strong-text">ВАЖНО:</span> <span class="cursive-text">margin</span> всегда задают от предыдущего элемента к следующему.
         </p>
         <p class="article__copy">
-          Свойство margin необходимо только для того, чтобы отодвинуть своего соседа справа или снизу, поэтому используется margin-right и margin-bottom.
+          Свойство <span class="cursive-text">margin</span> необходимо только для того, чтобы отодвинуть своего соседа справа или снизу, поэтому используется <span class="cursive-text">margin-right</span> и <span class="cursive-text">margin-bottom</span>.
         </p>
         <p class="article__copy">
-          (!) Свойства margin-left и margin-top используются крайне редко.
+          (!) Свойства <span class="cursive-text">margin-left</span> и <span class="cursive-text">margin-top</span> используются крайне редко.
         </p>
         <p class="article__copy">
-          Для padding верно обратное. Исключением является его применения в декоративных целях, например, для увеличения области ссылки.
+          Для <span class="cursive-text">padding</span> верно обратное. Исключением является его применения в декоративных целях, например, для увеличения области ссылки.
         </p>
         <div class="clearfix"></div>
         <img src="img/2.jpg" alt="#" class="article__img article__img_margin_none article__img_float_right">
         <p class="article__copy">
-          Отступ внутри блока сверху или слева реализуется через padding-top и padding-left родителя.
+          Отступ внутри блока сверху или слева реализуется через <span class="cursive-text">padding-top</span> и <span class="cursive-text">padding-left</span> родителя.
         </p>
         <p class="article__copy">
           Отступы, как правило, делают в направлении от предыдущего элемента к следующему. Так элемент не будет толкать сам себя.
@@ -84,19 +84,19 @@
         <p class="article__copy">
           Отступ делают за счёт соседних элементов, а не дочерних:
         </p>
-        <figure>
-          <img src="img/5.jpg" alt="#" class="article__img">
-          <figcaption>ВАЖНО: здесь .list-item — последний возможный элемент в котором мы задаём отступ, чтобы разделить списки.</figcaption>
+        <figure class="figure">
+          <img src="img/5.jpg" alt="#" class="article__img article__img_margin_none">
+          <figcaption class="figure__figcaption"><span class="strong-text">ВАЖНО:</span> здесь .<span class="cursive-text">list-item</span> — последний возможный элемент в котором мы задаём отступ, чтобы разделить списки.</figcaption>
         </figure>
         <p class="article__copy">
-          Казалось бы, можно задать отступ параграфу &lt;p&gt;, либо обёртке &lt;article&gt; для достижения той же цели. Внешне останется все точно также, но так делать не рекомендуется.
+          Казалось бы, можно задать отступ параграфу &lt;<span class="cursive-text">p</span>&gt;, либо обёртке &lt;<span class="cursive-text">article</span>&gt; для достижения той же цели. Внешне останется все точно также, но так делать не рекомендуется.
         </p>
         <p class="article__copy">
           Предыдущий пример был достаточно простым, но бывает вложенность значительно больше.
         </p>
         <img src="img/6.jpg" alt="#" class="article__img">
         <p class="article__copy">
-          В случае с заголовком, если ему необходим отступ сверху, последним элементом будет section. Именно для него задается padding-top, а не div с классом container. Свойства margin, которые стоят по умолчанию необходимо обнулить.
+          В случае с заголовком, если ему необходим отступ сверху, последним элементом будет <span class="cursive-text">section</span>. Именно для него задается <span class="cursive-text">padding-top</span>, а не <span class="cursive-text">div</span> с классом <span class="cursive-text">container</span>. Свойства <span class="cursive-text">margin</span>, которые стоят по умолчанию необходимо обнулить.
         </p>
         <img src="img/7.jpg" alt="#" class="article__img">
         <p class="article__copy">
@@ -119,7 +119,7 @@
         </p>
         <img src="img/8.jpg" alt="#" class="article__img">
         <p class="article__copy">
-          В соответствии со вторым принципом: последний margin обнуляется, а нижний отступ задаётся через padding для section. Я чаще всего задаю padding для секции с обоих сторон, если расстояние между секциями 100px задаю секциям padding-top:50px и padding-bottom:50px.
+          В соответствии со вторым принципом: последний <span class="cursive-text">margin</span> обнуляется, а нижний отступ задаётся через <span class="cursive-text">padding</span> для <span class="cursive-text">section</span>. Я чаще всего задаю <span class="cursive-text">padding</span> для секции с обоих сторон, если расстояние между секциями 100px задаю секциям <span class="cursive-text">padding-top:50px</span> и <span class="cursive-text">padding-bottom:50px</span>.
         </p>
         <img src="img/9.jpg" alt="#" class="article__img">
         <img src="img/10.jpg" alt="#" class="article__img article__img_margin_none">

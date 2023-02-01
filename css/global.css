@@ -81,3 +81,11 @@ iframe {
   line-height: 120%;
   margin-bottom: 30px;
 }
+
+.strong-text {
+  font-weight: 700;
+}
+
+.cursive-text {
+  font-style: italic;
+}
